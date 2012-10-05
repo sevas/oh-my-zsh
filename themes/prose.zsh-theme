@@ -36,7 +36,7 @@ function python_version {
 
 PROMPT='
 %{$fg[magenta]%}%n%{$reset_color%} at %{$fg[yellow]%}%m%{$reset_color%} in %{$fg_bold[green]%}$(collapse_pwd)%{$reset_color%}$(hg_prompt_info)$(git_prompt_info)
-(%{$fg[grey]%}$(python_version)%{$reset_color%}) $(prompt_char) '
+%{$fg[cyan]%}|%{$fg[grey]%}$(python_version)%{$fg[cyan]%}|%{$reset_color%} $(prompt_char) '
 
 
 
